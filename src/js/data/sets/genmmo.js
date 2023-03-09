@@ -1,4 +1,3 @@
-
 var SETDEX_BW = {
 	Abomasnow: {
 		"Protect + 3 Attacks": {
@@ -1761,7 +1760,7 @@ var SETDEX_BW = {
 	Gengar: {
 		"Focus Sash": {
 			level: 50,
-			ability: "Levitate",
+			ability: "Cursed Body",
 			item: "Black Sludge",
 			nature: "Timid",
 			evs: { sa: 252, sd: 4, sp: 252 },

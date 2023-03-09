@@ -179,6 +179,7 @@ const BW = DPP.concat([
   'Weak Armor',
   'Wonder Skin',
   'Zen Mode',
+  'Neutralizing Gas',
 ]);
 
 const XY = BW.concat([
