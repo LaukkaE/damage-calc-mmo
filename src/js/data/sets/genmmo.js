@@ -458,7 +458,7 @@ var SETDEX_BW = {
 		"Trick Room": {
 			level: 50,
 			ability: "Levitate",
-			item: "Life Orb",
+			item: "Mental Herb",
 			nature: "Brave",
 			evs: { hp: 252, at: 252, sd: 4 },
 			moves: ["Trick Room", "Gyro Ball", "Explosion", "Stealth Rock"],
@@ -2544,6 +2544,14 @@ var SETDEX_BW = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Earthquake", "Crunch", "Stone Edge", "Pursuit"],
 		},
+		"Choice Band": {
+			level: 50,
+			ability: "Moxie",
+			item: "Choice Band",
+			nature: "Jolly",
+			evs: { at: 252, sd: 4, sp: 252 },
+			moves: ["Earthquake", "Crunch", "Stone Edge", "Pursuit"],
+		},
 	},
 	"Landorus-Therian": {
 		Defensive: {
@@ -2855,10 +2863,18 @@ var SETDEX_BW = {
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Mach Punch", "Drain Punch", "Stone Edge", "Thunder Punch"],
 		},
+		"Assault Vest": {
+			level: 50,
+			ability: "No Guard",
+			item: "Assault Vest",
+			nature: "Adamant",
+			evs: { hp: 212, at: 252, sp: 44 },
+			moves: ["Mach Punch", "Dynamic Punch", "Stone Edge", "Thunder Punch"],
+		},
 		"Choice Band": {
 			level: 50,
 			ability: "No Guard",
-			item: "Leftovers",
+			item: "Choice Band",
 			nature: "Adamant",
 			evs: { hp: 212, at: 252, sp: 44 },
 			moves: ["Mach Punch", "Dynamic Punch", "Stone Edge", "Thunder Punch"],
@@ -4832,6 +4848,14 @@ var SETDEX_BW = {
 		},
 	},
 	Spiritomb: {
+		"Assault Vest": {
+			level: 50,
+			ability: "Infiltrator",
+			item: "Assault Vest",
+			nature: "Brave",
+			evs: { hp: 252, at: 252, sd: 4 },
+			moves: ["Shadow Sneak", "Rock Tomb", "Pursuit", "Icy Wind"],
+		},
 		"Choice Band": {
 			level: 50,
 			ability: "Pressure",
@@ -5017,6 +5041,14 @@ var SETDEX_BW = {
 			item: "Leftovers",
 			nature: "Relaxed",
 			evs: { hp: 240, at: 16, df: 252 },
+			moves: ["Stealth Rock", "Scald", "Earthquake", "Ice Beam"],
+		},
+		"Specially Defensive": {
+			level: 50,
+			ability: "Torrent",
+			item: "Leftovers",
+			nature: "Sassy",
+			evs: { hp: 240, at: 16, sd: 252 },
 			moves: ["Stealth Rock", "Scald", "Earthquake", "Ice Beam"],
 		},
 		"Choice Band": {
