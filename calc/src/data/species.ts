@@ -2387,7 +2387,7 @@ const ADV_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
     types: ["Water", "Flying"],
     bs: { hp: 60, at: 50, df: 100, sa: 85, sd: 70, sp: 65 },
     weightkg: 28,
-    abilities: { 0: "Keen Eye" },
+    abilities: { 0: "Drizzle" },
   },
   Plusle: {
     types: ["Electric"],
@@ -5138,9 +5138,9 @@ const MMO_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   Cryogonal: { bs: { hp: 80, df: 50 } },
   Delcatty: { bs: { sp: 90 } },
   Dodrio: { bs: { sp: 110 } },
-  Dugtrio: { bs: { at: 100 }},
+  Dugtrio: { bs: { at: 100 } },
   Electrode: { bs: { sp: 150 } },
-  Exeggutor: { bs: { sd: 75 }},
+  Exeggutor: { bs: { sd: 75 } },
   "Farfetch\u2019d": { bs: { at: 90 } },
   Gengar: { abilities: { 0: "Cursed Body" } },
   Weezing: { abilities: { 0: "Neutralizing Gas" } },
@@ -5150,7 +5150,7 @@ const MMO_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   Mantine: { bs: { hp: 85 } },
   Masquerain: { bs: { sa: 100, sp: 80 } },
   Noctowl: { bs: { sa: 86 } },
-  Pelipper: { bs: { sa: 95 } },
+  Pelipper: { bs: { sa: 95 }, abilities: { 0: "Drizzle" } },
   Qwilfish: { bs: { df: 85 } },
   Solrock: { bs: { hp: 90 } },
   Swellow: { bs: { sa: 75 } },
@@ -5158,7 +5158,13 @@ const MMO_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   Woobat: { bs: { hp: 65 } },
 };
 
-const BW: { [name: string]: SpeciesData } = extend(true, {}, DPP, BW_PATCH,MMO_PATCH);
+const BW: { [name: string]: SpeciesData } = extend(
+  true,
+  {},
+  DPP,
+  BW_PATCH,
+  MMO_PATCH
+);
 
 // @ts-ignore readonly
 delete BW["Pichu"].otherFormes;

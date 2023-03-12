@@ -3562,17 +3562,17 @@ var SETDEX_BW = {
 		},
 	},
 	Pelipper: {
-		Standard: {
+		"Standard": {
 			level: 50,
-			ability: "Rain Dish",
+			ability: "Drizzle",
 			item: "Damp Rock",
-			nature: "Calm",
+			nature: "Bold",
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Scald", "Roost", "U-Turn", "Hurricane"],
 		},
 		"Choice Scarf": {
 			level: 50,
-			ability: "Rain Dish",
+			ability: "Drizzle",
 			item: "Choice Scarf",
 			nature: "Timid",
 			evs: { df: 4, sa: 252, sp: 252 },
@@ -3580,7 +3580,7 @@ var SETDEX_BW = {
 		},
 		"Choice Specs": {
 			level: 50,
-			ability: "Rain Dish",
+			ability: "Drizzle",
 			item: "Choice Specs",
 			nature: "Modest",
 			evs: { df: 4, sa: 252, sp: 252 },
@@ -4715,7 +4715,7 @@ var SETDEX_BW = {
 			ability: "Sturdy",
 			item: "Rocky Helmet",
 			nature: "Impish",
-			evs: { hp: 248,df: 252, sd: 4,sp:4 },
+			evs: { hp: 248, df: 252, sd: 4, sp: 4 },
 			moves: ["Roost", "Spikes", "Whirlwind", "Brave Bird"],
 		},
 		"Specially Defensive": {
@@ -4723,7 +4723,7 @@ var SETDEX_BW = {
 			ability: "Sturdy",
 			item: "Leftovers",
 			nature: "Careful",
-			evs: { hp: 248, df: 4, sd: 252,sp:4 },
+			evs: { hp: 248, df: 4, sd: 252, sp: 4 },
 			moves: ["Roost", "Spikes", "Toxic", "Brave Bird"],
 		},
 		Lead: {
