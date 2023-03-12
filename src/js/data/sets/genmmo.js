@@ -2993,7 +2993,7 @@ var SETDEX_BW = {
 			level: 50,
 			ability: "Thick Fat",
 			item: "Choice Band",
-			nature: "Jolly",
+			nature: "Adamant",
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Earthquake", "Icicle Crash", "Superpower", "Ice Shard"],
 		},
@@ -3012,6 +3012,14 @@ var SETDEX_BW = {
 			nature: "Adamant",
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Substitute", "Earthquake", "Icicle Crash", "Ice Shard"],
+		},
+		Lead: {
+			level: 50,
+			ability: "Oblivious",
+			item: "Metronome",
+			nature: "Jolly",
+			evs: { at: 252, sd: 4, sp: 252 },
+			moves: ["Endeavor", "Earthquake", "Stealth Rock", "Ice Shard"],
 		},
 	},
 	Mandibuzz: {
@@ -4705,9 +4713,9 @@ var SETDEX_BW = {
 		"Physically Defensive": {
 			level: 50,
 			ability: "Sturdy",
-			item: "Leftovers",
+			item: "Rocky Helmet",
 			nature: "Impish",
-			evs: { hp: 252, df: 252, sd: 4 },
+			evs: { hp: 248,df: 252, sd: 4,sp:4 },
 			moves: ["Roost", "Spikes", "Whirlwind", "Brave Bird"],
 		},
 		"Specially Defensive": {
@@ -4715,7 +4723,7 @@ var SETDEX_BW = {
 			ability: "Sturdy",
 			item: "Leftovers",
 			nature: "Careful",
-			evs: { hp: 252, df: 4, sd: 252 },
+			evs: { hp: 248, df: 4, sd: 252,sp:4 },
 			moves: ["Roost", "Spikes", "Toxic", "Brave Bird"],
 		},
 		Lead: {
