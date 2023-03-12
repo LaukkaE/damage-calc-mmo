@@ -4194,7 +4194,7 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Leaf Storm", "Volt Switch", "Hidden Power Ice", "Trick"],
 		},
-		Defensive: {
+		"Physically Defensive": {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
@@ -4220,7 +4220,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Volt Switch", "Hydro Pump", "Will-O-Wisp", "Defog"],
 		},
-		"OU Choice Scarf": {
+		"Choice Scarf": {
 			level: 50,
 			ability: "Levitate",
 			item: "Choice Scarf",
@@ -4369,7 +4369,7 @@ var SETDEX_BW = {
 			level: 50,
 			ability: "Technician",
 			item: "Choice Band",
-			nature: "Jolly",
+			nature: "Adamant",
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["U-turn", "Pursuit", "Close Combat", "Bullet Punch"],
 		},
@@ -4707,7 +4707,7 @@ var SETDEX_BW = {
 			ability: "Sturdy",
 			item: "Leftovers",
 			nature: "Impish",
-			evs: { hp: 252, df: 4, sd: 252 },
+			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Roost", "Spikes", "Whirlwind", "Brave Bird"],
 		},
 		"Specially Defensive": {
