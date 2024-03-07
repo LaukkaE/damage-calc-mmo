@@ -1331,18 +1331,13 @@ var SETDEX_BW = {
 		},
 	},
 	Entei: {
-		"Physical Attacker": {
+		"Choice Band": {
 			level: 50,
 			ability: "Pressure",
 			item: "Choice Band",
 			nature: "Adamant",
 			evs: { at: 252, sa: 4, sp: 252 },
-			moves: [
-				"Flare Blitz",
-				"Extreme Speed",
-				"Stone Edge",
-				"Hidden Power Grass",
-			],
+			moves: ["Flare Blitz", "Extreme Speed", "Stone Edge", "Sacred Fire"],
 		},
 	},
 	Escavalier: {
@@ -3562,7 +3557,7 @@ var SETDEX_BW = {
 		},
 	},
 	Pelipper: {
-		"Standard": {
+		Standard: {
 			level: 50,
 			ability: "Drizzle",
 			item: "Damp Rock",
@@ -5010,6 +5005,14 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Calm Mind", "Rest", "Sleep Talk", "Scald"],
 		},
+		SubProtect: {
+			level: 50,
+			ability: "Pressure",
+			item: "Leftovers",
+			nature: "Timid",
+			evs: { hp: 228, df: 60, sa: 4, sd: 76, sp: 140 },
+			moves: ["Calm Mind", "Substitute", "Protect", "Scald"],
+		},
 	},
 	Sunflora: {
 		"Suicide Sun": {
@@ -5708,7 +5711,6 @@ var SETDEX_BW = {
 			ability: "Pressure",
 			item: "Leftovers",
 			nature: "Bold",
-			ivs: { at: 2, df: 30 },
 			evs: { hp: 248, df: 100, sa: 4, sd: 44, sp: 112 },
 			moves: ["Volt Switch", "Roost", "Hidden Power Ice", "Heat Wave"],
 		},
@@ -5717,7 +5719,7 @@ var SETDEX_BW = {
 			ability: "Pressure",
 			item: "Life Orb",
 			nature: "Timid",
-			evs: { hp: 4, sa: 252, sp: 252 },
+			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Thunder", "Hurricane", "Weather Ball", "Roost"],
 		},
 	},
