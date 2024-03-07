@@ -1645,7 +1645,7 @@ var SETDEX_BW = {
 			ability: "Sharpness",
 			item: "Life Orb",
 			nature: "Adamant",
-			evs: { hp: 68, at: 252, sp: 188 },
+			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Swords Dance", "Sacred Sword", "Psycho Cut", "Shadow Sneak"],
 		},
 		"Choice Scarf": {
@@ -2249,8 +2249,8 @@ var SETDEX_BW = {
 		"Substitute Nasty Plot": {
 			level: 50,
 			ability: "Levitate",
-			item: "Dragon Fang",
-			nature: "Modest",
+			item: "Leftovers",
+			nature: "Timid",
 			evs: { df: 4, sa: 252, sp: 252 },
 			moves: ["Dragon Pulse", "Substitute", "Nasty Plot", "Focus Blast"],
 		},
