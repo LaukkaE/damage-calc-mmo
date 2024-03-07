@@ -180,6 +180,7 @@ const BW = DPP.concat([
   'Wonder Skin',
   'Zen Mode',
   'Neutralizing Gas',
+  'Sharpness',
 ]);
 
 const XY = BW.concat([

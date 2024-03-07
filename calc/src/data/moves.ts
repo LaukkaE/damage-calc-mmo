@@ -1779,7 +1779,6 @@ const MMO_PATCH: { [name: string]: DeepPartial<MoveData> } = {
   Flamethrower: { bp: 90 },
   "Focus Blast": { isBullet: true },
   "Frost Breath": { bp: 60 },
-  "Fury Cutter": { bp: 40 },
   "Future Sight": { bp: 120 },
   "Grass Pledge": { bp: 80 },
   "Gyro Ball": { isBullet: true },
@@ -1816,6 +1815,19 @@ const MMO_PATCH: { [name: string]: DeepPartial<MoveData> } = {
   "Water Pulse": { isPulse: true },
   "Weather Ball": { isBullet: true },
   "Zap Cannon": { isBullet: true },
+  "Aerial Ace": { isSlicing: true },
+  "Air Slash": { isSlicing: true },
+  "Cross Poison": { isSlicing: true },
+  "Fury Cutter": { bp: 40, isSlicing: true },
+  "Leaf Blade": { isSlicing: true },
+  "Night Slash": { isSlicing: true },
+  "Psycho Cut": { isSlicing: true },
+  "Razor Leaf": { isSlicing: true },
+  "Razor Shell": { isSlicing: true },
+  "Sacred Sword": { isSlicing: true },
+  Slash: { isSlicing: true },
+  "Solar Blade": { isSlicing: true },
+  "X-Scissor": { isSlicing: true },
 };
 
 const BW: { [name: string]: MoveData } = extend(

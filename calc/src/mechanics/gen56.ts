@@ -418,7 +418,10 @@ export function calculateBWXY(
   ) {
     bpMods.push(6144);
     desc.attackerAbility = attacker.ability;
-  } else if (attacker.hasAbility('Analytic') && turnOrder !== 'first') {
+  }else if (attacker.hasAbility('Sharpness') && move.flags.slicing){ //SHARPNESS MUUTOS
+    bpMods.push(5734)
+  }
+   else if (attacker.hasAbility('Analytic') && turnOrder !== 'first') {
     bpMods.push(5325);
     desc.attackerAbility = attacker.ability;
   } else if (

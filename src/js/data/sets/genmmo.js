@@ -1642,27 +1642,27 @@ var SETDEX_BW = {
 	Gallade: {
 		"Swords Dance": {
 			level: 50,
-			ability: "Justified",
+			ability: "Sharpness",
 			item: "Life Orb",
 			nature: "Adamant",
 			evs: { hp: 68, at: 252, sp: 188 },
-			moves: ["Swords Dance", "Close Combat", "Ice Punch", "Shadow Sneak"],
+			moves: ["Swords Dance", "Sacred Sword", "Psycho Cut", "Shadow Sneak"],
 		},
 		"Choice Scarf": {
 			level: 50,
-			ability: "Justified",
+			ability: "Sharpness",
 			item: "Choice Scarf",
 			nature: "Jolly",
 			evs: { hp: 4, at: 252, sp: 252 },
-			moves: ["Close Combat", "Ice Punch", "Zen Headbutt", "Trick"],
+			moves: ["Sacred Sword", "Psycho Cut", "Leaf Blade", "Trick"],
 		},
-		"Bulk Up": {
+		"Choice Band": {
 			level: 50,
-			ability: "Justified",
+			ability: "Sharpness",
 			item: "Leftovers",
 			nature: "Adamant",
-			evs: { hp: 252, at: 68, sp: 188 },
-			moves: ["Bulk Up", "Drain Punch", "Ice Punch", "Night Slash"],
+			evs: { hp: 4, at: 252, sp: 252 },
+			moves: ["Sacred Sword", "Psycho Cut", "Leaf Blade", "Shadow Sneak"],
 		},
 	},
 	Galvantula: {

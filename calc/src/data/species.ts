@@ -5156,6 +5156,9 @@ const MMO_PATCH: { [name: string]: DeepPartial<SpeciesData> } = {
   Swellow: { bs: { sa: 75 } },
   Volbeat: { bs: { df: 75, sd: 85 } },
   Woobat: { bs: { hp: 65 } },
+  Gallade: {
+    abilities: { 0: "Sharpness" },
+  },
 };
 
 const BW: { [name: string]: SpeciesData } = extend(
