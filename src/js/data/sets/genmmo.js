@@ -3498,7 +3498,7 @@ var SETDEX_BW = {
 	Ninetales: {
 		Defensive: {
 			level: 50,
-			ability: "Flash Fire",
+			ability: "Drought",
 			item: "Heat Rock",
 			nature: "Timid",
 			evs: { hp: 248, df: 4, sa: 4, sp: 252 },
@@ -3506,7 +3506,7 @@ var SETDEX_BW = {
 		},
 		Offensive: {
 			level: 50,
-			ability: "Flash Fire",
+			ability: "Drought",
 			item: "Heat Rock",
 			nature: "Timid",
 			evs: { hp: 4, sa: 252, sp: 252 },
