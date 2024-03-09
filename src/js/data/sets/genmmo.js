@@ -334,7 +334,7 @@ var SETDEX_BW = {
 			item: "Leftovers",
 			nature: "Adamant",
 			evs: { hp: 52, at: 252, sp: 204 },
-			moves: ["Swords Dance", "Sucker Punch", "Substitute", "Low Kick"],
+			moves: ["Swords Dance", "Sucker Punch", "Night Slash", "Low Kick"],
 		},
 	},
 	Blastoise: {
@@ -411,6 +411,14 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Bullet Seed", "Mach Punch", "Rock Tomb", "Spore"],
 		},
+		"Choice Band": {
+			level: 50,
+			ability: "Technician",
+			item: "Choice Band",
+			nature: "Adamant",
+			evs: { at: 252, df: 4, sp: 252 },
+			moves: ["Bullet Seed", "Mach Punch", "Rock Tomb", "Close Combat"],
+		},
 		"Life Orb SD": {
 			level: 50,
 			ability: "Technician",
@@ -418,14 +426,6 @@ var SETDEX_BW = {
 			nature: "Adamant",
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Bullet Seed", "Mach Punch", "Rock Tomb", "Swords Dance"],
-		},
-		"Choice Band": {
-			level: 50,
-			ability: "Technician",
-			item: "Choice Band",
-			nature: "Adamant",
-			evs: { at: 252, df: 4, sp: 252 },
-			moves: ["Bullet Seed", "Mach Punch", "Low Sweep", "Superpower"],
 		},
 		SubPunch: {
 			level: 50,
@@ -737,6 +737,14 @@ var SETDEX_BW = {
 		},
 	},
 	Cofagrigus: {
+		"Physically Defensive": {
+			level: 50,
+			ability: "Mummy",
+			item: "Leftovers",
+			nature: "Bold",
+			evs: { hp: 252, df: 252, sd: 4 },
+			moves: ["Will-O-Wisp", "Hex", "Pain Split", "Haze"],
+		},
 		"Nasty Plot Trick Room": {
 			level: 50,
 			ability: "Mummy",
@@ -750,14 +758,6 @@ var SETDEX_BW = {
 				"Nasty Plot",
 				"Trick Room",
 			],
-		},
-		"UU Defensive": {
-			level: 50,
-			ability: "Mummy",
-			item: "Leftovers",
-			nature: "Bold",
-			evs: { hp: 248, df: 252, sd: 8 },
-			moves: ["Will-O-Wisp", "Hex", "Pain Split", "Haze"],
 		},
 	},
 	Conkeldurr: {
@@ -1003,7 +1003,7 @@ var SETDEX_BW = {
 		"3 Attacks Dragon Dance": {
 			level: 50,
 			ability: "Multiscale",
-			item: "Lum Berry",
+			item: "Dragon Gem",
 			nature: "Adamant",
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Dragon Dance", "Dragon Claw", "Earthquake", "Extreme Speed"],
@@ -3011,7 +3011,7 @@ var SETDEX_BW = {
 		Lead: {
 			level: 50,
 			ability: "Oblivious",
-			item: "Metronome",
+			item: "Focus Sash",
 			nature: "Jolly",
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Endeavor", "Earthquake", "Stealth Rock", "Ice Shard"],
@@ -3023,7 +3023,7 @@ var SETDEX_BW = {
 			ability: "Overcoat",
 			item: "Leftovers",
 			nature: "Careful",
-			evs: { hp: 248, df: 8, sd: 252 },
+			evs: { hp: 252, df: 4, sd: 252 },
 			moves: ["Roost", "Foul Play", "Brave Bird", "Defog"],
 		},
 		"Physically Defensive": {
@@ -3031,7 +3031,7 @@ var SETDEX_BW = {
 			ability: "Overcoat",
 			item: "Leftovers",
 			nature: "Impish",
-			evs: { hp: 248, df: 252, sp: 4 },
+			evs: { hp: 252, df: 252, sp: 4 },
 			moves: ["Foul Play", "Brave Bird", "Roost", "Defog"],
 		},
 	},
@@ -3206,7 +3206,7 @@ var SETDEX_BW = {
 			item: "Choice Band",
 			nature: "Adamant",
 			evs: { hp: 4, at: 252, sp: 252 },
-			moves: ["Bullet Punch", "Ice Punch", "Zen Headbutt", "Trick"],
+			moves: ["Bullet Punch", "Heavy Slam", "Zen Headbutt", "Trick"],
 		},
 	},
 	Mew: {
@@ -3452,6 +3452,14 @@ var SETDEX_BW = {
 		},
 	},
 	Nidoking: {
+		"Timid All Out Attacker": {
+			level: 50,
+			ability: "Sheer Force",
+			item: "Life Orb",
+			nature: "Timid",
+			evs: { sa: 252, sd: 4, sp: 252 },
+			moves: ["Earth Power", "Fire Blast", "Ice Beam", "Thunderbolt"],
+		},
 		"Subsitute 3 Attacks": {
 			level: 50,
 			ability: "Sheer Force",
@@ -3491,10 +3499,18 @@ var SETDEX_BW = {
 		Defensive: {
 			level: 50,
 			ability: "Flash Fire",
-			item: "Leftovers",
+			item: "Heat Rock",
 			nature: "Timid",
-			evs: { hp: 252, df: 120, sp: 136 },
-			moves: ["Flamethrower", "Will-O-Wisp", "Sunny Day", "Pain Split"],
+			evs: { hp: 248, df: 4, sa: 4, sp: 252 },
+			moves: ["Flamethrower", "Healing Wish", "Baton Pass", "Encore"],
+		},
+		Offensive: {
+			level: 50,
+			ability: "Flash Fire",
+			item: "Heat Rock",
+			nature: "Timid",
+			evs: { hp: 4, sa: 252, sp: 252 },
+			moves: ["Flamethrower", "Solar Beam", "Healing Wish", "Encore"],
 		},
 	},
 	Noctowl: {
@@ -5226,7 +5242,7 @@ var SETDEX_BW = {
 			item: "Choice Specs",
 			nature: "Quiet",
 			evs: { hp: 252, sa: 252, sd: 4 },
-			moves: ["Eruption", "Fire Blast", "Solar beam", "Earth Power"],
+			moves: ["Eruption", "Fire Blast", "Solar Beam", "Earth Power"],
 		},
 	},
 	Torterra: {
