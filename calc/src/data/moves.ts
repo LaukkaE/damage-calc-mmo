@@ -1719,6 +1719,7 @@ const BW_PATCH: { [name: string]: DeepPartial<MoveData> } = {
 };
 
 const MMO_PATCH: { [name: string]: DeepPartial<MoveData> } = {
+  "Rapid Spin": { bp: 50 },
   "Sucker Punch": { bp: 70 },
   Outrage: { bp: 90 },
   "Ice Ball": { isBullet: true },
