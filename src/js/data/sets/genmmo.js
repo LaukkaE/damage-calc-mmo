@@ -830,7 +830,7 @@ var SETDEX_BW = {
 			item: "Life Orb",
 			nature: "Jolly",
 			evs: { hp: 4, at: 252, sp: 252 },
-			moves: ["Swords Dance", "Waterfall", "Crunch", "Aqua Jet"],
+			moves: ["Swords Dance", "Crabhammer", "Crunch", "Aqua Jet"],
 		},
 		"Choice Band": {
 			level: 50,
@@ -838,7 +838,7 @@ var SETDEX_BW = {
 			item: "Choice Band",
 			nature: "Adamant",
 			evs: { hp: 4, at: 252, sp: 252 },
-			moves: ["Waterfall", "Crunch", "Superpower", "Aqua Jet"],
+			moves: ["Crabhammer", "Crunch", "Superpower", "Aqua Jet"],
 		},
 	},
 	Cresselia: {
