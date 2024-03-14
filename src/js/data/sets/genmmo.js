@@ -338,6 +338,14 @@ var SETDEX_BW = {
 		},
 	},
 	Blastoise: {
+		"Shell Smash": {
+			level: 50,
+			ability: "Torrent",
+			item: "White Herb",
+			nature: "Modest",
+			evs: { hp: 4, sa: 252, sp: 252 },
+			moves: ["Shell Smash", "Rapid Spin", "Surf", "Ice Beam"],
+		},
 		Utility: {
 			level: 50,
 			ability: "Torrent",
@@ -699,7 +707,7 @@ var SETDEX_BW = {
 	},
 
 	Cloyster: {
-		"Focus Sash": {
+		"Shell Smash": {
 			level: 50,
 			ability: "Skill Link",
 			item: "Focus Sash",
@@ -5246,6 +5254,14 @@ var SETDEX_BW = {
 		},
 	},
 	Torterra: {
+		"Shell Smash": {
+			level: 50,
+			ability: "Overgrow",
+			item: "White Herb",
+			nature: "Adamant",
+			evs: { at: 252, df: 4, sp: 252 },
+			moves: ["Shell Smash", "Leaf Blade", "Earthquake", "Rock Blast"],
+		},
 		"Specially Defensive": {
 			level: 50,
 			ability: "Overgrow",
@@ -5253,14 +5269,6 @@ var SETDEX_BW = {
 			nature: "Careful",
 			evs: { hp: 252, df: 40, sd: 216 },
 			moves: ["Stealth Rock", "Wood Hammer", "Earthquake", "Synthesis"],
-		},
-		"Rock Polish": {
-			level: 50,
-			ability: "Overgrow",
-			item: "Leftovers",
-			nature: "Adamant",
-			evs: { at: 252, df: 4, sp: 252 },
-			moves: ["Rock Polish", "Wood Hammer", "Earthquake", "Stone Edge"],
 		},
 		Tank: {
 			level: 50,
