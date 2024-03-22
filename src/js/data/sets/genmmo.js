@@ -423,7 +423,7 @@ var SETDEX_BW = {
 			level: 50,
 			ability: "Technician",
 			item: "Choice Band",
-			nature: "Adamant",
+			nature: "Jolly",
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Bullet Seed", "Mach Punch", "Rock Tomb", "Close Combat"],
 		},
@@ -1305,7 +1305,7 @@ var SETDEX_BW = {
 		},
 	},
 	Empoleon: {
-		"UU Specially Defensive": {
+		"Specially Defensive": {
 			level: 50,
 			ability: "Torrent",
 			item: "Leftovers",
@@ -1313,7 +1313,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, sa: 4, sd: 252 },
 			moves: ["Stealth Rock", "Scald", "Roost", "Roar"],
 		},
-		"UU Physically Defensive": {
+		"Physically Defensive": {
 			level: 50,
 			ability: "Torrent",
 			item: "Leftovers",
@@ -1393,7 +1393,7 @@ var SETDEX_BW = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Earthquake", "Stealth Rock", "Rock Slide", "Rapid Spin"],
 		},
-		"OU Specially Defensive": {
+		"Specially Defensive": {
 			level: 50,
 			ability: "Mold Breaker",
 			item: "Leftovers",
@@ -1585,7 +1585,7 @@ var SETDEX_BW = {
 		},
 	},
 	Forretress: {
-		"OU Support": {
+		Support: {
 			level: 50,
 			ability: "Sturdy",
 			item: "Leftovers",
@@ -1643,14 +1643,6 @@ var SETDEX_BW = {
 		},
 	},
 	Gallade: {
-		"Swords Dance": {
-			level: 50,
-			ability: "Sharpness",
-			item: "Life Orb",
-			nature: "Adamant",
-			evs: { hp: 4, at: 252, sp: 252 },
-			moves: ["Swords Dance", "Sacred Sword", "Psycho Cut", "Shadow Sneak"],
-		},
 		"Choice Scarf": {
 			level: 50,
 			ability: "Sharpness",
@@ -1658,6 +1650,14 @@ var SETDEX_BW = {
 			nature: "Jolly",
 			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Sacred Sword", "Psycho Cut", "Leaf Blade", "Trick"],
+		},
+		"Swords Dance": {
+			level: 50,
+			ability: "Sharpness",
+			item: "Life Orb",
+			nature: "Adamant",
+			evs: { hp: 4, at: 252, sp: 252 },
+			moves: ["Swords Dance", "Sacred Sword", "Psycho Cut", "Shadow Sneak"],
 		},
 		"Choice Band": {
 			level: 50,
@@ -1842,6 +1842,14 @@ var SETDEX_BW = {
 		},
 	},
 	Gliscor: {
+		"Physically Defensive": {
+			level: 50,
+			ability: "Poison Heal",
+			item: "Toxic Orb",
+			nature: "Impish",
+			evs: { hp: 204, df: 252, sd: 52 },
+			moves: ["Spikes", "Protect", "Facade", "Earthquake"],
+		},
 		"Swords Dance": {
 			level: 50,
 			ability: "Poison Heal",
@@ -1857,14 +1865,6 @@ var SETDEX_BW = {
 			nature: "Jolly",
 			evs: { hp: 204, sd: 52, sp: 252 },
 			moves: ["Taunt", "Earthquake", "Roost", "Facade"],
-		},
-		"Physically Defensive": {
-			level: 50,
-			ability: "Poison Heal",
-			item: "Toxic Orb",
-			nature: "Impish",
-			evs: { hp: 204, df: 252, sd: 52 },
-			moves: ["Spikes", "Protect", "Toxic", "Earthquake"],
 		},
 	},
 
@@ -2241,13 +2241,13 @@ var SETDEX_BW = {
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Dragon Pulse", "Fire Blast", "Dark Pulse", "Focus Blast"],
 		},
-		Taunt: {
+		"Stealth Rock": {
 			level: 50,
 			ability: "Levitate",
-			item: "Dragon Fang",
+			item: "Haban Berry",
 			nature: "Modest",
 			evs: { df: 4, sa: 252, sp: 252 },
-			moves: ["Dragon Pulse", "Taunt", "Roost", "Focus Blast"],
+			moves: ["Dragon Pulse", "Stealth Rock", "Taunt", "Focus Blast"],
 		},
 		"Substitute Nasty Plot": {
 			level: 50,
