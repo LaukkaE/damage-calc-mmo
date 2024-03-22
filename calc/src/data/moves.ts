@@ -280,7 +280,7 @@ const GSC_PATCH: { [name: string]: DeepPartial<MoveData> } = {
   Crunch: { bp: 80, type: "Dark" },
   "Feint Attack": { bp: 60, type: "Dark" },
   "Giga Drain": { bp: 60, type: "Grass", drain: [1, 2] },
-  "Hidden Power": { bp: 0, type: "Normal" },
+  "Hidden Power": { bp: 60, type: "Normal" },
   "Mean Look": { bp: 0, category: "Status", type: "Normal" },
   "Rapid Spin": { bp: 20, type: "Normal" },
   "Rock Smash": { bp: 20, type: "Fighting" },
