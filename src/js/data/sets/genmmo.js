@@ -1,12 +1,12 @@
 var SETDEX_BW = {
 	Abomasnow: {
-		"Protect + 3 Attacks": {
+		Mixed: {
 			level: 50,
 			ability: "Snow Warning",
-			item: "Leftovers",
-			nature: "Adamant",
-			evs: { hp: 172, at: 252, sp: 84 },
-			moves: ["Ice Shard", "Wood Hammer", "Earthquake", "Protect"],
+			item: "Expert Belt",
+			nature: "Naive",
+			evs: { at: 28, sa: 252, sp: 228 },
+			moves: ["Ice Shard", "Wood Hammer", "Blizzard", "Hidden Power Fire"],
 		},
 	},
 	Absol: {
@@ -2305,13 +2305,13 @@ var SETDEX_BW = {
 		},
 	},
 	Jellicent: {
-		Standard: {
+		"Physically Defensive": {
 			level: 50,
 			ability: "Water Absorb",
 			item: "Leftovers",
-			nature: "Timid",
-			evs: { hp: 248, df: 124, sp: 136 },
-			moves: ["Taunt", "Toxic", "Recover", "Scald"],
+			nature: "Bold",
+			evs: { hp: 252, df: 252, sa: 4 },
+			moves: ["Taunt", "Ice Beam", "Recover", "Scald"],
 		},
 	},
 	Jirachi: {
@@ -3709,19 +3709,6 @@ var SETDEX_BW = {
 	},
 
 	"Porygon-Z": {
-		Agility: {
-			level: 50,
-			ability: "Download",
-			item: "Life Orb",
-			nature: "Modest",
-			evs: { hp: 96, sa: 252, sp: 160 },
-			moves: [
-				"Agility",
-				"Tri Attack",
-				"Dark Pulse",
-				"Hidden Power Fighting",
-			],
-		},
 		"Choice Scarf": {
 			level: 50,
 			ability: "Adaptability",
@@ -3738,16 +3725,21 @@ var SETDEX_BW = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Tri Attack", "Dark Pulse", "Hidden Power Fighting", "Trick"],
 		},
-	},
-	Porygon2: {
-		"Duck Tank": {
+		Agility: {
 			level: 50,
 			ability: "Download",
-			item: "Eviolite",
+			item: "Life Orb",
 			nature: "Modest",
-			evs: { hp: 252, df: 4, sa: 252 },
-			moves: ["Tri Attack", "Ice Beam", "Discharge", "Recover"],
+			evs: { hp: 96, sa: 252, sp: 160 },
+			moves: [
+				"Agility",
+				"Tri Attack",
+				"Dark Pulse",
+				"Hidden Power Fighting",
+			],
 		},
+	},
+	Porygon2: {
 		"Defensive Duck": {
 			level: 50,
 			ability: "Trace",
@@ -3755,6 +3747,14 @@ var SETDEX_BW = {
 			nature: "Bold",
 			evs: { hp: 252, df: 176, sd: 80 },
 			moves: ["Ice Beam", "Discharge", "Toxic", "Recover"],
+		},
+		"Duck Tank": {
+			level: 50,
+			ability: "Download",
+			item: "Eviolite",
+			nature: "Modest",
+			evs: { hp: 252, df: 4, sa: 252 },
+			moves: ["Tri Attack", "Ice Beam", "Discharge", "Recover"],
 		},
 		"Trick Room": {
 			level: 50,
@@ -5449,8 +5449,8 @@ var SETDEX_BW = {
 			ability: "Chlorophyll",
 			item: "Life Orb",
 			nature: "Modest",
-			evs: { hp: 72, df: 4, sa: 252, sp: 180 },
-			moves: ["Growth", "Sludge Bomb", "Giga Drain", "Weather Ball"],
+			evs: { df: 4, sa: 252, sp: 252 },
+			moves: ["Growth", "Hidden Power Ice", "Giga Drain", "Weather Ball"],
 		},
 	},
 	Vespiquen: {
@@ -5735,7 +5735,7 @@ var SETDEX_BW = {
 			ability: "Pressure",
 			item: "Leftovers",
 			nature: "Bold",
-			evs: { hp: 248, df: 100, sa: 4, sd: 44, sp: 112 },
+			evs: { hp: 252, df: 228, sa: 4, sd: 4, sp: 20 },
 			moves: ["Volt Switch", "Roost", "Hidden Power Ice", "Heat Wave"],
 		},
 		Offensive: {
