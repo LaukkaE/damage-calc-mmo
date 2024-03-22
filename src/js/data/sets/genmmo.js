@@ -1998,7 +1998,7 @@ var SETDEX_BW = {
 			ability: "Intimidate",
 			item: "Leftovers",
 			nature: "Jolly",
-			evs: { hp: 88, at: 248, df: 4, sp: 168 },
+			evs: { hp: 84, at: 252, df: 4, sp: 168 },
 			moves: ["Dragon Dance", "Ice Fang", "Waterfall", "Power Whip"],
 		},
 		"Offensive Dragon Dance": {
