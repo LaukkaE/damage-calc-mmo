@@ -1013,7 +1013,7 @@ var SETDEX_BW = {
 			ability: "Multiscale",
 			item: "Dragon Gem",
 			nature: "Adamant",
-			evs: { at: 252, sd: 4, sp: 252 },
+			evs: { hp: 4, at: 252, sp: 252 },
 			moves: ["Dragon Dance", "Dragon Claw", "Earthquake", "Extreme Speed"],
 		},
 		"Substitute + Dragon Dance": {
