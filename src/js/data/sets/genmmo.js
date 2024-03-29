@@ -2236,7 +2236,7 @@ var SETDEX_BW = {
 		"Choice Scarf": {
 			level: 50,
 			ability: "Levitate",
-			item: "Life Orb",
+			item: "Choice Scarf",
 			nature: "Timid",
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Dragon Pulse", "Fire Blast", "Dark Pulse", "Focus Blast"],
@@ -4412,7 +4412,7 @@ var SETDEX_BW = {
 			level: 50,
 			ability: "Technician",
 			item: "Leftovers",
-			nature: "Jolly",
+			nature: "Adamant",
 			evs: { hp: 252, at: 252, df: 4 },
 			moves: ["U-turn", "Swords Dance", "Roost", "Bullet Punch"],
 		},
