@@ -4235,8 +4235,8 @@ var SETDEX_BW = {
 			level: 50,
 			ability: "Levitate",
 			item: "Leftovers",
-			nature: "Calm",
-			evs: { hp: 252, df: 252, sd: 4 },
+			nature: "Bold",
+			evs: { hp: 252, df: 164, sp: 92 },
 			moves: ["Volt Switch", "Hydro Pump", "Will-O-Wisp", "Defog"],
 		},
 		"Specially Defensive": {
