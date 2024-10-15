@@ -1998,7 +1998,7 @@ var SETDEX_BW = {
 			ability: "Intimidate",
 			item: "Leftovers",
 			nature: "Jolly",
-			evs: { hp: 84, at: 252, df: 4, sp: 168 },
+			evs: { hp: 84, at: 252, df: 4, sp: 164 },
 			moves: ["Dragon Dance", "Ice Fang", "Waterfall", "Power Whip"],
 		},
 		"Offensive Dragon Dance": {
@@ -2087,7 +2087,7 @@ var SETDEX_BW = {
 			item: "Leftovers",
 			nature: "Calm",
 			evs: { hp: 252, df: 4, sd: 252 },
-			moves: ["Stealth Rock", "Lava Plume", "Roar", "Protect"],
+			moves: ["Stealth Rock", "Lava Plume", "Earth Power", "Protect"],
 		},
 		"Sunny Day Trapper": {
 			level: 50,
@@ -2134,13 +2134,13 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 252, sd: 4 },
 			moves: ["Slack Off", "Earthquake", "Whirlwind", "Stealth Rock"],
 		},
-		"OU Mixed Wall": {
+		"Mixed Wall": {
 			level: 50,
 			ability: "Sand Stream",
 			item: "Leftovers",
 			nature: "Careful",
 			evs: { hp: 252, df: 12, sd: 244 },
-			moves: ["Slack Off", "Earthquake", "Stealth Rock", "Whirlwind"],
+			moves: ["Slack Off", "Earthquake", "Stealth Rock", "Rock Slide"],
 		},
 	},
 	Hitmonchan: {
@@ -2239,7 +2239,7 @@ var SETDEX_BW = {
 			item: "Choice Scarf",
 			nature: "Timid",
 			evs: { sa: 252, sd: 4, sp: 252 },
-			moves: ["Dragon Pulse", "Fire Blast", "Dark Pulse", "Focus Blast"],
+			moves: ["Dragon Pulse", "Flamethrower", "Dark Pulse", "Focus Blast"],
 		},
 		"Stealth Rock": {
 			level: 50,
@@ -5554,7 +5554,7 @@ var SETDEX_BW = {
 			item: "Leftovers",
 			nature: "Timid",
 			evs: { df: 4, sa: 252, sp: 252 },
-			moves: ["Quiver Dance", "Fiery Dance", "Bug Buzz", "Giga Drain"],
+			moves: ["Quiver Dance", "Fiery Dance", "Bug Buzz", "Hidden Power Ice"],
 		},
 		"Bulky Quiver Dance": {
 			level: 50,
@@ -5570,7 +5570,7 @@ var SETDEX_BW = {
 			item: "Life Orb",
 			nature: "Modest",
 			evs: { hp: 4, sa: 252, sp: 252 },
-			moves: ["Fire Blast", "Giga Drain", "Quiver Dance", "Bug Buzz"],
+			moves: ["Fire Blast", "Hidden Power Ice", "Quiver Dance", "Bug Buzz"],
 		},
 	},
 	Wailord: {
